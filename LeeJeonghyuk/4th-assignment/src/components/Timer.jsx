@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import './Timer.css'
+import App from "../App";
 
 const Timer = () => {
     const [seconds, setSeconds] = useState(5);
@@ -23,8 +24,6 @@ const Timer = () => {
             </div>
         </div>
         );
-    };
-return null;
 };
-
+}
 export default Timer;
