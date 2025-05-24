@@ -1,0 +1,13 @@
+#box {
+    background-color: whitesmoke;
+    border: solid 1px gray;
+    box-shadow: 1px 1px 8px gray;
+    border-radius: 8px;
+    margin-top: 20px;
+    width:fit-content;
+    padding: 10px 20px;
+}
+
+body {
+    display: flex;
+}
