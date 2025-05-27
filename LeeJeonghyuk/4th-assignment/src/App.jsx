@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <button onClick={() => setShowTimer(!showTimer)} id="button">모달 보기</button>
-      {showTimer && <Timer />}
+      {showTimer && <Timer onTimerEnd={() => setShowTimer(false)}/>}
     </div>
   )
 }
